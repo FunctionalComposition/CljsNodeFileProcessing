@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[cljs-node-io "1.1.2"]]
+
+ :builds
+ {:app {:target :node-script
+        :output-to "target/main.js"
+        :main cli.main/main!}}}

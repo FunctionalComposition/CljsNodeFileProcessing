@@ -1,0 +1,12 @@
+{
+  "name": "cljs-node-file-processing",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.11.4",
+    "source-map-support": "^0.5.19"
+  },
+  "dependencies": {
+    "yargs": "^16.0.3"
+  }
+}
